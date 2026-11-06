@@ -105,6 +105,31 @@
             flex-direction: column;
             gap: 15px;
         }
+
+        .container {
+            justify-content: center;
+        }
+
+        .container>div {
+            flex: 1 1 320px;
+            max-width: 560px;
+            box-sizing: border-box;
+            padding: 0 10px;
+        }
+
+        .container iframe {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16 / 9;
+            border: 0;
+            display: block;
+        }
+
+        @media (max-width: 600px) {
+            footer {
+                font-size: 20px;
+            }
+        }
     </style>
 </head>
 
